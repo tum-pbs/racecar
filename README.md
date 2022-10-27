@@ -1,7 +1,7 @@
-# Data-driven Regularization via Racecar Training for Generalizing Neural Networks
+# Reviving Autoencoder Pretraining
 
 This is the source code repository for our paper
-"Data-driven Regularization via Racecar Training for Generalizing Neural Networks".
+"Reviving Autoencoder Pretraining" (published in Neural Computing and Applications Journal).
 This repository contains example code to train the MNIST and peak models mentioned in our paper. We also provide an example to analyze the weights via SVD to verify differences among racecar trained model (RR), standard model (Std) and models trained with orthogonal constraints (Ort). I.e., the code here can be used to reproduce Fig. 3 in our paper.
 
 
@@ -9,7 +9,7 @@ This repository contains example code to train the MNIST and peak models mention
 
 ## Abstract:
 
-We propose a novel training approach for improving the generalization in neural networks.  We show that in contrast to regular constraints for orthogonality, our approach represents a {\em data-dependent} orthogonality constraint, and is closely related to singular value decompositions of the weight matrices.  We also show how our formulation is easy to realize in practical network architectures via a reverse pass, which aims for reconstructing the full sequence of internal states of the network.  Despite being a surprisingly simple change, we demonstrate that this forward-backward training approach, which we refer to as "racecar" training, leads to significantly more generic features being extracted from a given data set.  Networks trained with our approach show more balanced mutual information between input and output throughout all layers, yield improved explainability and, exhibit improved performance for a variety of tasks and task transfers.
+The pressing need for pretraining algorithms has been diminished by numerous advances in terms of regularization, architectures, and optimizers. Despite this trend, we re-visit the classic idea of unsupervised autoencoder pretraining and propose a modified variant that relies on a full reverse pass trained in conjunction with a given training task. This yields networks that are {\em as-invertible-as-possible}, and share mutual information across all constrained layers. We additionally establish links between singular value decomposition and pretraining and show how it can be leveraged for gaining insights about the learned structures. Most importantly, we demonstrate that our approach yields an improved performance for a wide variety of relevant learning and transfer tasks ranging from fully connected networks over residual neural networks to generative adversarial networks. Our results demonstrate that unsupervised pretraining has not lost its practical relevance in today’s deep learning environment.
 
 Pre-print: <https://arxiv.org/pdf/2007.00024.pdf>
 
