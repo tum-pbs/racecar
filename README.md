@@ -5,7 +5,7 @@ This is the source code repository for our paper
 This repository contains example code to train the MNIST and peak models mentioned in our paper. We also provide an example to analyze the weights via SVD to verify differences among racecar trained model (RR), standard model (Std) and models trained with orthogonal constraints (Ort). I.e., the code here can be used to reproduce Fig. 3 in our paper.
 
 
-![racecar Training teaser](resources/racecar-teaser.jpg)
+![racecar Training teaser](resources/racecar-teaser.png)
 
 ## Abstract:
 
