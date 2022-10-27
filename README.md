@@ -11,7 +11,7 @@ This repository contains example code to train the MNIST and peak models mention
 
 The pressing need for pretraining algorithms has been diminished by numerous advances in terms of regularization, architectures, and optimizers. Despite this trend, we re-visit the classic idea of unsupervised autoencoder pretraining and propose a modified variant that relies on a full reverse pass trained in conjunction with a given training task. This yields networks that are {\em as-invertible-as-possible}, and share mutual information across all constrained layers. We additionally establish links between singular value decomposition and pretraining and show how it can be leveraged for gaining insights about the learned structures. Most importantly, we demonstrate that our approach yields an improved performance for a wide variety of relevant learning and transfer tasks ranging from fully connected networks over residual neural networks to generative adversarial networks. Our results demonstrate that unsupervised pretraining has not lost its practical relevance in today’s deep learning environment.
 
-Pre-print: <https://arxiv.org/pdf/2007.00024.pdf>
+Paper: <https://link.springer.com/article/10.1007/s00521-022-07892-0>
 
 Lab Website: <https://ge.in.tum.de/publications/2020-xie-racecar/>
 
